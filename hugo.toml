@@ -1,6 +1,6 @@
-baseURL = 'https://t-monaghan.github.io'
-languageCode = 'en-us'
-title = 'Tom Monaghan'
+baseURL = 'https://xiaoheshang404.github.io'
+languageCode = 'zh-CN'
+title = "Yedongxin's blog"
 theme = 'archie'
 
 copyright = "© Thomas Monaghan"
