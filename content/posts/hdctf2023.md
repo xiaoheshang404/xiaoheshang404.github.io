@@ -6,9 +6,9 @@ title : 'hdctf2023 wp'
 很高兴参加HnuSec实验室的师傅们举办的赛事hh
 ### pwnner and re
 
-![image-20230422084802971](/static/images/image-20230422084802971.png)
+![image-20230422084802971](/images/image-20230422084802971.png)
 
-![image-20230422084944358](/static/images/image-20230422084944358.png)
+![image-20230422084944358](/images/image-20230422084944358.png)
 
 
 
@@ -35,21 +35,21 @@ sh.sendline(payload)
 sh.interactive()
 ```
 
-![image-20230422085023424](/static/images/image-20230422085023424.png)
+![image-20230422085023424](/images/image-20230422085023424.png)
 
 
 
 ### KEEP ON
 
-![image-20230422085107948](/static/images/image-20230422085107948.png)
+![image-20230422085107948](/images/image-20230422085107948.png)
 
-![image-20230422085116899](/static/images/image-20230422085116899.png)
+![image-20230422085116899](/images/image-20230422085116899.png)
 
 
 
 本来想格式化字符串溢出到shell
 
-![image-20230422125016543](/static/images/image-20230422125016543.png)
+![image-20230422125016543](/images/image-20230422125016543.png)
 
 但是这个shell不能用
 
@@ -99,7 +99,7 @@ sh.interactive()
 
 ### makewish
 
-![image-20230425122522719](/static/images/image-20230425122522719.png)
+![image-20230425122522719](/images/image-20230425122522719.png)
 
 puts函数可以输出canary
 
@@ -107,21 +107,21 @@ puts函数可以输出canary
 
 计算v5 ，然后跳到vuln函数
 
-![image-20230425122559513](/static/images/image-20230425122559513.png)
+![image-20230425122559513](/images/image-20230425122559513.png)
 
 这里有一个off-by-one（也叫off-by-null）
 
-![image-20230425122644012](/static/images/image-20230425122644012.png)
+![image-20230425122644012](/images/image-20230425122644012.png)
 
 能覆盖rbp的最后一个字节的值\x00
 
 我们把前面全填ret，这样把rbp改小有一定可能返回到ret，这样一直ret到shell
 
-![image-20230425140921152](/static/images/image-20230425140921152.png)
+![image-20230425140921152](/images/image-20230425140921152.png)
 
 这里传输整数的时候不能直接给，因为是四byte
 
-![image-20230425140955992](/static/images/image-20230425140955992.png)
+![image-20230425140955992](/images/image-20230425140955992.png)
 
 所以我们以字节的形式给出
 
@@ -164,13 +164,13 @@ sh.interactive()
 
 ### Minions
 
-![image-20230425141044364](/static/images/image-20230425141044364.png)
+![image-20230425141044364](/images/image-20230425141044364.png)
 
 没有canary和pie了
 
-![image-20230425141130967](/static/images/image-20230425141130967.png)
+![image-20230425141130967](/images/image-20230425141130967.png)
 
-![image-20230425141230196](/static/images/image-20230425141230196.png)
+![image-20230425141230196](/images/image-20230425141230196.png)
 
 
 
@@ -180,7 +180,7 @@ sh.interactive()
 
 后面应该是bss 栈迁移把
 
-![image-20230425141301819](/static/images/image-20230425141301819.png)
+![image-20230425141301819](/images/image-20230425141301819.png)
 
 都是bss的
 
