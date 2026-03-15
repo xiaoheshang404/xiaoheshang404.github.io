@@ -3,7 +3,8 @@ date : '2025-02-16T14:41:31+11:00'
 title : 'hdctf2023 wp'
 ---
 
-### pwnner
+很高兴参加HnuSec实验室的师傅们举办的赛事
+### pwnner and re
 
 ![image-20230422084802971](/static/images/image-20230422084802971.png)
 
