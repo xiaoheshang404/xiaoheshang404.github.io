@@ -14,8 +14,8 @@ pagination.pagerSize = 4
 # og_image = ""
 mode = "auto"
 useCDN = true
-subtitle = "writes about working with code"
-description = "Tom Monaghan's blog on software engineering"
+subtitle = "Hi there! I am ydx and you are welcome to my little city on the internet. This is somewhat a personal space."
+description = "a student"
 
 [[menu.main]]
 name = "posts"
