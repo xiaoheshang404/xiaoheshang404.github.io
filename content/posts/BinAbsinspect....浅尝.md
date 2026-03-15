@@ -1,3 +1,7 @@
+---
+date : '2025-1-12T14:41:31+11:00'
+title : 'BinAbsinspector、bap等浅尝'
+---
 ghidra、BinAbsinspector、bap、cew_checker、radare
 
 以上为应实习工作内容便利，笔者最近尝试了几款主流二进制工具，记录过程以及实战对比
