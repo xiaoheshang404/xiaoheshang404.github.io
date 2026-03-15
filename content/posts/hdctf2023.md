@@ -4,7 +4,7 @@ title : 'hdctf2023 wp'
 ---
 
 很高兴参加HnuSec实验室的师傅们举办的赛事hh
-### pwnner and re
+pwnner and re
 
 ![image-20230422084802971](/images/image-20230422084802971.png)
 
