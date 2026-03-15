@@ -3,6 +3,9 @@ languageCode = 'zh-CN'
 title = "Yedongxin's blog"
 theme = 'archie'
 
+
+summaryLength = 7
+
 copyright = "© Thomas Monaghan"
 pygmentsstyle = "monokai"
 pygmentscodefences = true
