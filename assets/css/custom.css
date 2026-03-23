@@ -1,1 +1,4 @@
-
+/* 隐藏所有文章的 Keep reading 按钮 */
+.read-more {
+    display: none !important;
+}
