@@ -26,6 +26,7 @@ pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 paginate.pagerSize = 4
+summaryLength = 4
 
 [params]
 favicon = "https://img.icons8.com/officel/16/000000/chevron-right.png"
