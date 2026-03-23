@@ -1,5 +1,5 @@
 ---
-date : '2025-1-12T14:41:31+11:00'
+date : '2025-01-12T14:41:31+11:00'
 title : 'BinAbsinspector、bap等浅尝'
 ---
 ghidra、BinAbsinspector、bap、cew_checker、radare
