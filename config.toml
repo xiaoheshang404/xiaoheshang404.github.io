@@ -36,6 +36,7 @@ mode = "toggle"
 useCDN = true
 subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/athul/archie)"
 description = "Archie is a Minimal and Clean theme for Hugo"
+customCSS = ["css/custom.css"]  # 新增这行
 
 [[params.social]]
 name = "GitHub"
